@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct TitleViewView: View {
+struct TitleView: View {
     // MARK: - PROPERTIES
     
     var title: String
@@ -30,7 +30,7 @@ struct TitleViewView: View {
 // MARK: - PREVIEW
 struct TitleViewView_Previews: PreviewProvider {
     static var previews: some View {
-        TitleViewView(title: "Helmet")
+        TitleView(title: "Helmet")
             .previewLayout(.sizeThatFits)
             .background(colorBackground)
     }

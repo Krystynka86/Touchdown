@@ -25,14 +25,16 @@ struct ContentView: View {
                     .shadow(color: .black.opacity(0.05), radius: 5, x: 0, y: 5)
                 
                
-                ScrollView(.vertical) {
+                ScrollView {
                     VStack(spacing: 0){
                             FeaturedTabView()
                             .frame(height: UIScreen.main.bounds.width / 1.475)
                             .padding(.vertical, 10)
-                            
+                        
+                            CategoryGridView()
+                          
                             FooterView()
-                                .padding(.horizontal)
+                            .padding(.horizontal)
                     } //: VSTACK
                 } //: SCROLL
         } //: VSTACK

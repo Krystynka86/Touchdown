@@ -12,6 +12,7 @@
 		6B094E1E2A6DAA5800873E68 /* BrandGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B094E1D2A6DAA5800873E68 /* BrandGridView.swift */; };
 		6B094E202A6DB0EA00873E68 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B094E1F2A6DB0EA00873E68 /* ProductDetailView.swift */; };
 		6B094E222A6DB46D00873E68 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B094E212A6DB46D00873E68 /* NavigationBarDetailView.swift */; };
+		6B094E242A6DB72600873E68 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B094E232A6DB72600873E68 /* HeaderDetailView.swift */; };
 		6B5F83892A686A1500AC1368 /* TitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F83882A686A1500AC1368 /* TitleView.swift */; };
 		6B5F838B2A686F5A00AC1368 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F838A2A686F5900AC1368 /* ProductModel.swift */; };
 		6B5F838D2A6870BF00AC1368 /* ProductItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5F838C2A6870BF00AC1368 /* ProductItemView.swift */; };
@@ -43,6 +44,7 @@
 		6B094E1D2A6DAA5800873E68 /* BrandGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrandGridView.swift; sourceTree = "<group>"; };
 		6B094E1F2A6DB0EA00873E68 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		6B094E212A6DB46D00873E68 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		6B094E232A6DB72600873E68 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
 		6B5F83882A686A1500AC1368 /* TitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleView.swift; sourceTree = "<group>"; };
 		6B5F838A2A686F5900AC1368 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
 		6B5F838C2A6870BF00AC1368 /* ProductItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductItemView.swift; sourceTree = "<group>"; };
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				6B094E212A6DB46D00873E68 /* NavigationBarDetailView.swift */,
+				6B094E232A6DB72600873E68 /* HeaderDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -280,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6BE557E52A670AF400F4F143 /* CodableBundleExtension.swift in Sources */,
+				6B094E242A6DB72600873E68 /* HeaderDetailView.swift in Sources */,
 				6BE557B62A66E72C00F4F143 /* ContentView.swift in Sources */,
 				6BE557E12A66F98500F4F143 /* LogoView.swift in Sources */,
 				6B5F83892A686A1500AC1368 /* TitleView.swift in Sources */,

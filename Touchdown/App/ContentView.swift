@@ -41,6 +41,13 @@ struct ContentView: View {
                             } //: LOOP
                         }) // : GRID
                             .padding(.horizontal, 15)
+                        
+                        TitleView(title: "Brands")
+                        
+                        BrandGridView()
+                        
+                        FooterView()
+                            .padding(.horizontal)
                           
                             FooterView()
                             .padding(.horizontal)
@@ -58,6 +65,6 @@ struct ContentView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
-            .previewDevice("iPhone 13 Pro")
+            
     }
 }

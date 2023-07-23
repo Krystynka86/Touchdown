@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct RatingSizesDetailView: View {
+struct RatingsSizesDetailView: View {
     // MARK: - PROPERTIES
     
     let sizes: [String] = ["XS", "S", "M", "L", "XL"]
@@ -68,7 +68,7 @@ struct RatingSizesDetailView: View {
 // MARK: - PREVIEW
 struct RatingSizesDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        RatingSizesDetailView()
+        RatingsSizesDetailView()
             .previewLayout(.sizeThatFits)
             .padding()
     }

@@ -50,7 +50,7 @@ struct ProductDetailView: View {
                     .padding(.vertical, 10)
                 
                 // ADD TO CART
-                AddToCartView()
+                AddToCartDetailView()
                     .padding(.bottom, 20)
                 
             }) //: VSTACK

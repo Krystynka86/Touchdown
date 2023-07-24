@@ -44,6 +44,8 @@ struct ProductDetailView: View {
                 }) //: SCROLL
                 
                 // QUANTITY + FAVORITE
+                QuantityFavouriteDetailView()
+                    .padding(.vertical, 10)
                 
                 // ADD TO CART
                 
